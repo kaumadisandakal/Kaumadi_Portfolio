@@ -14,9 +14,8 @@
 
   :root {
     --bg-color: #000000;
-    --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #ec9844;
+    --main-color: #6DA4AA;
 
   }
 
@@ -107,6 +106,14 @@
     font-weight: 700;
   }
 
+  .home-content h3{
+    margin-bottom: 2rem;
+  }
+
+  span {
+    color: var(--main-color);
+  }
+
   .home-content h2{
     font-size: 5.6rem;
     font-weight: 700;
@@ -115,5 +122,51 @@
 
   .home-content p {
     font-size: 2rem;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 10rem 10rem;
+  }
+
+  .about-img img{
+    width: 450px;
+    height: auto;
+  }
+
+
+  .heading {
+    text-align: center;
+    font-size: 4.5rem;
+  }
+
+
+
+  .about-content h2{
+    text-align: left;
+    line-height: 1.2;
+  }
+
+
+  .about-content p {
+    font-size: 1.8rem;
+    margin: 5rem 12rem 5rem 0;
+    text-align: justify;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600; 
   }
 
